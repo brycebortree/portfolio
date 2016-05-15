@@ -1,0 +1,58 @@
+/*35605a-004000-6b818c-d8e4ff-31e981*/
+
+body {
+  width: 90%;
+  margin-left: 5%;
+}
+
+hr {
+  color: #004000;
+  border-color: #004000;
+  background-color: #004000;
+}
+
+.bigboy {
+  font-size: 32px;
+  font-family: 'Josefin Sans', serif;
+  font-weight: 400;
+  color: #6B818C;
+}
+
+p, li {
+  font-size:20px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+}
+
+.fa {
+  color: #004000;
+}
+/*intro*/
+
+/*skills*/
+
+.skill::before{
+  color: deepskyblue;
+  content: ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+}
+
+
+/*projects*/
+
+.project::before{
+  color: deepskyblue;
+  content: ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+}
+
+
+/*contact*/
+
+.contact {
+
+}
+
+
+.contact::before{
+  color: #31E981;
+  content: ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+}
