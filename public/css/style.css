@@ -18,7 +18,7 @@ hr {
   color: #6B818C;
 }
 
-p, li {
+p, ul li {
   font-size:20px;
   font-family: 'Playfair Display', sans-serif;
   font-weight: 400;
@@ -27,6 +27,28 @@ p, li {
 .fa {
   color: #004000;
 }
+
+div.nav {
+  margin: 20px;
+}
+
+.button {
+  background-color: #004000;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', serif;
+  font-weight: bold;
+}
+
+div.center {
+  width: 100%;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
 /*intro*/
 
 /*skills*/
