@@ -32,6 +32,10 @@ div.nav {
   margin: 20px;
 }
 
+#logo {
+  height: 250px;
+}
+
 .button {
   background-color: #004000;
   border-radius: 5px;
