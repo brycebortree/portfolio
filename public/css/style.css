@@ -33,7 +33,7 @@ div.nav {
 }
 
 #logo {
-  height: 250px;
+  height: 100px;
 }
 
 .button {
@@ -68,6 +68,15 @@ ul{
 .project::before{
   color: deepskyblue;
   content: ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+}
+
+/*experience*/
+.bold {
+  font-weight: bold;
+}
+
+.right {
+  float: right;
 }
 
 
