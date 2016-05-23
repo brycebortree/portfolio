@@ -23,20 +23,31 @@ p, ul li {
   font-weight: 400;
 }
 
-#aboutpic {
-  border-radius: 300px;
-}
-
 .fa {
   color: #004000;
 }
 
-div.nav {
-  margin: 20px;
+/*top bar fun*/
+
+.top-bar {
+    position: relative;
+}
+
+.top-bar-right .menu {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
 }
 
 #logo {
   height: 100px;
+}
+
+.navlink{
+  display: inline;
+  padding: 20px;
+  color: black;
 }
 
 .button {
@@ -58,13 +69,12 @@ ul{
   padding: 0;
 }
 
-.navlink{
-  display: inline;
-  padding: 20px;
-  color: black;
-}
+/*about*/
 
-/*intro*/
+#aboutpic {
+  border-radius: 300px;
+  max-height: 250px;
+}
 
 /*skills*/
 
