@@ -33,16 +33,20 @@ a:visited {
 }
 
 /*top bar fun*/
+.full {
+  width: 100%;
+}
 
 .top-bar {
-    position: relative;
+  position: relative;
+  width: 100%;
 }
 
 .top-bar-right .menu {
-    position: absolute;
-    transform: translateY(-50%);
-    top: 50%;
-    right: 0;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 0;
 }
 
 #logo {
