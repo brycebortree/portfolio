@@ -1,7 +1,7 @@
 
 body {
-  width: 90%;
-  margin-left: 5%;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
@@ -11,10 +11,10 @@ hr {
 }
 
 .bigboy {
-  font-size: 32px;
+  font-size: 50px;
   font-family: 'Josefin Sans', serif;
   font-weight: 400;
-  color: #6B818C;
+  color: #979797;
 }
 
 p, ul li {
@@ -32,14 +32,22 @@ a:visited {
   color: #004000;
 }
 
-/*top bar fun*/
-.full {
-  width: 100%;
+.bold {
+  font-weight: bold;
 }
 
+/*MENU*/
+
 .top-bar {
-  position: relative;
+  position: fixed;
   width: 100%;
+  margin-top: 0;
+  opacity: .9;
+  margin-top: -150px;
+}
+
+nav {
+  position: fixed;
 }
 
 .top-bar-right .menu {
@@ -78,10 +86,6 @@ ul{
   padding: 0;
 }
 
-hr{
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
 
 .project {
   margin-top: 50px;
@@ -90,7 +94,7 @@ hr{
 
 /*about*/
 #about {
-  margin-top: 40px;
+  margin-top: 150px;
 }
 
 #aboutpic {
@@ -101,16 +105,17 @@ hr{
 
 /*skills*/
 
-.skill::after{
-  color: deepskyblue;
-  content: "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+#skills{
+  background-image: url('../../assets/macbook.jpg');
+  background-attachment: fixed;
+  color: white;
+  width: 90%;
+}
+
 
 /*projects*/
 
-.project::after{
-  color: deepskyblue;
-  content: "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
-}
+
 
 /*experience*/
 .bold {
@@ -126,11 +131,6 @@ hr{
 
 .contact {
 
-}
-
-.contact::after{
-  color: deepskyblue;
-  content: "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
 }
 
 .no-js .top-bar {
