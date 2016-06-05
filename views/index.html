@@ -21,8 +21,6 @@
 <body >
   <div class="container" id="skrollr-body">
 
-
-
     <!-- small navbar -->
   <!-- <div class="title-bar" data-responsive-toggle="nav-menu" data-hide-for="medium">
       <a class="logo-small show-for-small-only" href="#"><img src="/assets/bb.ico" /></a>
@@ -31,22 +29,25 @@
   </div> -->
 
     <!-- very simple navbar -->
-
-    <nav class="top-bar" data-title-bar role="navigation">
-      <div class="top-bar-left">
-        <div class="logo">
-          <img id="logo" src="../assets/bb-square.svg" />
+    <div class="fixed">
+      <nav class="top-bar" class="shrinker" data-title-bar role="navigation">
+        <div class="top-bar-left">
+          <div class="logo">
+            <img id="logo" src="../assets/bb-square.svg" />
+          </div>
         </div>
-      </div>
-      <div class="top-bar-right">
-        <ul class="vertical medium-horizontal dropdown menu" data-responsive-menu="drilldown medium-dropdown">
-          <li><a href="#skills" class="navlink">skills</a></li>
-          <li><a href="#projects" class="navlink">projects</a></li>
-          <li><a href="#experience" class="navlink">experience</a></li>
-          <li><a href="#contact" class="navlink">contact</a></li>
-        </ul>
-      </div>
-    </nav>
+        <div class="top-bar-right">
+          <ul class="vertical medium-horizontal dropdown menu" data-responsive-menu="drilldown medium-dropdown">
+            <li><a href="#skills" class="navlink">skills</a></li>
+            <li><a href="#projects" class="navlink">projects</a></li>
+            <li><a href="#experience" class="navlink">experience</a></li>
+            <li><a href="#contact" class="navlink">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="header-fill"></div>
 
 
     <section class="slide" id="about">
@@ -246,7 +247,16 @@
 
   </div>
 
-  <div class="loader" style="display:none;">&nbsp;</div>
+  <div class="footer-section">
+    <div class="row">
+      <div class="small-12 medium-12 large-12 columns">
+        <p> &copy; Copyright 2016</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- working on loader -->
+  <!-- <div class="loader" style="display:none;">&nbsp;</div> -->
 
 
 
@@ -256,7 +266,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script type="text/javascript" src="../public/js/skrollr.min.js"></script>
   <script type="text/javascript">
-  var s = skrollr.init();
+    var s = skrollr.init();
   </script>
     <!-- myjs -->
   <script src="../public/js/script.js"></script>
