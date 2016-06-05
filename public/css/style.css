@@ -1,8 +1,6 @@
 body{
   height:100% !important;
   width:100% !important; 
-  margin-top:0px; 
-  padding:0px;
 }
 
 .container {
@@ -48,7 +46,6 @@ a:visited {
   width: 100%;
   margin-top: 0;
   opacity: .9;
-  margin-top: -150px;
 }
 
 nav {
@@ -57,8 +54,8 @@ nav {
 
 .top-bar-right .menu {
   position: absolute;
-  transform: translateY(-50%);
-  top: 50%;
+  /*transform: translateY(-50%);  
+  top: 50%;*/  
   right: 0;
 }
 
