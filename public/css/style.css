@@ -10,7 +10,7 @@ body{
 
 hr {
   color: #004000;
-  border-color: #004000;
+  border-color: orange;
   background-color: #004000;
 }
 
@@ -61,12 +61,13 @@ nav {
 
 #logo {
   height: 100px;
+
 }
 
 .navlink{
   display: inline;
+  margin-top: 22px;
   padding: 20px;
-  color: black;
 }
 
 .button {
@@ -96,7 +97,7 @@ ul{
 
 /*about*/
 #about {
-  margin-top: 150px;
+
 }
 
 #aboutpic {
@@ -110,6 +111,20 @@ ul{
   /*background-image: url('../../assets/macbook.jpg');*/
   background-attachment: fixed;
   color: black;
+}
+
+.skill-list {
+  line-height: 4em;
+}
+
+.skill-list li {
+  vertical-align: middle;
+
+}
+
+.icon {
+  font-size: 35px;
+  color: orange;
 }
 
 /*projects*/
@@ -129,6 +144,15 @@ ul{
 
 .contact {
 
+}
+
+.contact-love{
+  margin-top: 25px;
+}
+
+.contact-icons {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 /*preventing flash of unstyled content*/

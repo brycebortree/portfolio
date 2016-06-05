@@ -34,7 +34,10 @@
       <div class="top-bar" data-sticky data-top-anchor="1" data-options="marginTop:0;" style="width:100%">
         <div class="top-bar-left">
           <div class="logo">
-            <img id="logo" src="../assets/bb-square.svg" />
+            <ul>
+              <li><img id="logo" src="../assets/bb-square.svg" /></li>
+              <!--  <li>bryce bortree</li>-->            
+            </ul>
           </div>
         </div>
         <div class="top-bar-right">
@@ -88,11 +91,23 @@
       </div>
       <div class="row">
         <div class="small-12 large-offset-1 large-10 large-offset-1 columns">
-      		<ul>
-      			<li>Languages: JavaScript, Ruby, HTML, CSS</li>
-    				<li>Frameworks: Node.js, ExpressJS, Rails, AngularJS</li>
-    				<li>Database Tools: SQL, PostgreSQL, Sequelize, MongoDB</li>
-    				<li>Other: Bcrypt, RSpec</li>
+      		<ul class="skill-list">
+      			<li>
+              <i class="fa fa-code icon" aria-hidden="true"></i>
+              Languages: JavaScript, Ruby, HTML, CSS
+            </li>
+    				<li>
+              <i class="fa fa-cogs icon" aria-hidden="true"></i>
+              Frameworks: Node.js, ExpressJS, Rails, AngularJS
+            </li>
+    				<li>
+              <i class="fa fa-database icon" aria-hidden="true"></i>
+              Database Tools: SQL, PostgreSQL, Sequelize, MongoDB
+            </li>
+    				<li>
+              <i class="fa fa-lock icon" aria-hidden="true"></i>
+              Other: Bcrypt, RSpec, Skrollr
+            </li>
       		</ul>
         </div>
       </div>
@@ -120,10 +135,12 @@
       <div class="row center">
         <div class="small-12 large-offset-1 large-10 large-offset-1 columns">
           <div class="project small-12 large-6 columns">
-      		  <p><a href="http://artr.herokuapp.com/"><img src="../assets/artr.png" alt="The Artr: Social Media Art Maker">The Artr</a></p>
+      		  <p><a href="http://artr.herokuapp.com/"><img src="../assets/artr.gif" alt="The Artr: Social Media Art Maker">The Artr</a></p>
+            <p> The Artr is an avant garde social media art creator that pulls images from Flickr and tweets from Twitter to create funny or throught provoking juxtapositions. Feel free to make art on your own. This app was built in Node.js and express. And I used HTML5/CSS3, JavaScript, jQuery, sequelize, postgres, and custom Flickr and Twitter modules as my primary technologies. Bootstrap was used for CSS styling, and bcrypt was used for password hashing. </p>
           </div>
           <div class="project small-12 large-6 columns">
             <p><a href="http://theomdbsearch.herokuapp.com/"><img src="../assets/theomdbsearch.png" alt="a simple movie search app">The OMDB Search</a></p>
+            <p>An in-class exploration of API calls, this app is a fun and simple way to keep track of favorite movies. Built using javascript, Node, Express, and more.</p>
           </div>
         </div>
       </div>
@@ -135,13 +152,15 @@
         <div class="small-12 large-offset-1 large-10 large-offset-1 columns">
           <div class="project small-12 large-6 columns">
       		  <p><a href="http://brytree.github.io/behind-the-universe/">
-              <img src="../assets/sig.png" alt="a front-end focused short story" />
+              <img src="../assets/flowsig.gif" alt="a front-end focused short story" />
               Behind The Universe</a></p>
+              <p>This project was a weekend long front-end hackathon for my General Assembly WDI course.  The goal was to learn a new library. I learned Foundation and Skrollr over the weekend, and also built with Javascript, CSS, HTML, and JQuery. I used parallax images and fading elements to build a page for a story I'd written while in graduate school about Kant owning a flower shop.</p>
           </div>
           <div class="project small-12 large-6 columns">
       		  <p><a href="http://brytree.github.io/darkbargains">
-              <img src="../assets/darkbargains.png" />
+              <img src="../assets/darkbargains.gif" />
               Dark Bargains</a></p>
+            <p>A pet project of mine, Dark Bargains is where I explore and play with Javascript and Jquery animations as well as AJAX calls. This is a self-directed learning tool I am to spend more time with as I become more familiar with the flexibilies these languages offer.</p>
           </div>
         </div>
       </div>
@@ -230,10 +249,10 @@
       </div>
       <div class="row">
         <div class="small-12 large-offset-1 large-10 large-offset-1 columns"> 
-          <p class="center">I'd love to be in touch! Find me at the following places: </p>
+          <p class="center contact-love">I'd love to be in touch! Find me at the following places: </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row contact-icons">
         <div class="small-12 large-offset-1 large-10 large-offset-1 columns">  			
           <div class="row contact-icons center">
       			<a href="mailto:hello@brycebortree.com"><i class="fa fa-envelope-square fa-5x" aria-hidden="true"></i>
