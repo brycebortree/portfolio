@@ -21,7 +21,7 @@ hr {
   font-family: 'Josefin Sans', serif;
   font-weight: 100;
 /*  color: #979797;*/
-  color: skyblue;
+  color: #004000;
 }
 
 p, ul li {
@@ -36,7 +36,7 @@ p, ul li {
 
 a:hover,
 a:visited {
-  color: #004000;
+  color: skyblue;
 }
 
 .bold {
@@ -49,7 +49,8 @@ a:visited {
 .top-bar {
   width: 100%;
   margin-top: 0;
-  opacity: .9;
+  color: #979797;
+;
 }
 
 nav {
@@ -72,10 +73,11 @@ nav {
   display: inline;
   margin-top: 22px;
   padding: 20px;
+  color: skyblue;
 }
 
 .button {
-  background-color: #004000;
+  background-color: skyblue;
   border-radius: 5px;
   font-size: 16px;
   font-family: 'Josefin Sans', serif;
@@ -133,12 +135,18 @@ ul{
 }
 
 /*projects*/
+.skyblue {
+  background-color: skyblue;
+}
 
+a.button.round{
+  color: white;
+}
 
 
 /*experience*/
 .bold {
-/*  font-weight: bold;*/
+  font-weight: bold;
 }
 
 .right {
@@ -155,10 +163,17 @@ ul{
   margin-top: 25px;
 }
 
-.contact-icons {
+.contacticon {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: skyblue;
+}
+
+.contacticon::before {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
 
 /*preventing flash of unstyled content*/
 
