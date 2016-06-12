@@ -34,7 +34,11 @@ p, ul li {
   color: #004000;
 }
 
-a:hover,
+a:hover {
+  color: royalblue;
+}
+
+
 a:visited {
   color: skyblue;
 }
@@ -75,6 +79,12 @@ nav {
   padding: 20px;
   color: skyblue;
 }
+
+.navlink:hover {
+  color: #258dad
+;
+}
+
 
 .button {
   background-color: skyblue;
@@ -172,6 +182,17 @@ a.button.round{
 .contacticon::before {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.contacticon:hover {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #258dad;
+}
+
+i:hover {
+  color: #258dad;
+
 }
 
 
