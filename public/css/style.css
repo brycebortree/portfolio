@@ -167,6 +167,23 @@ a.button.round{
   color: white;
 }
 
+  /*parallax*/
+.bcg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  }
+
+section.pic {
+  height: 250px !important;
+  }
+
+  /*actual pics*/
+  #writetime.bcg {background-image:url('../assets/Writetime.png')}
+
 
 /*experience*/
 .bold {

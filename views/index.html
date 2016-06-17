@@ -7,7 +7,7 @@
   <meta name="google-site-verification" content="mRArcdgfZJO8rMtBkEbkkX13QaTiryDBiGzz3PafzrY" />
   <title> bryce bortree</title>
   <!-- favicon -->
-  <link rel="icon" type="image/ico" href="../assets/green-ico.ico" />
+  <link rel="icon" type="image/ico" href="../public/assets/green-ico.ico" />
   <!-- foundation -->
   <link rel="stylesheet" href="../public/css/foundation.min.css">
   <link rel="stylesheet" href="../public/css/foundation.css">
@@ -38,7 +38,7 @@
         <div class="top-bar-left">
           <div class="logo">
             <ul>
-              <li><img id="logo" src="../assets/bb-square.svg" /></li>
+              <li><img id="logo" src="../public/assets/bb-square.svg" /></li>
               <!--  <li>bryce bortree</li>-->            
             </ul>
           </div>
@@ -78,7 +78,7 @@
     				I'm a curious web developer with a love of clean designs and intuitive user design. I am passionate about connecting users with information. In my past lives, I've been a reference desk librarian, a long time volunteer, and a bookseller. When not writing code, I'm probably writing or reading stories.
     			</p>
           <p id="pullquote"
-              data-0="opacity:0;"
+              data-0="opacity:.5;"
               data-250="opacity:1;">
             <i class="fa fa-quote-left" aria-hidden="true"></i>
               I can't wait to be a part of your story.
@@ -95,6 +95,7 @@
 
 
     <!-- S K I L L S -->
+    <!-- each li slides in every 10px -->
     <section class="slide" id="skills">
     	<div class="row">
     		<div class="small-12 large-offset-1 large-10 large-offset-1 columns">
@@ -175,38 +176,45 @@
         </div>
       </div>
 
+      <!-- w r i t e t i m e  -->
+      <section id="writetime" class="row writetime">
+        <div class="small-12 medium-12 large-12">
+          <div class="bcg"
+            data-center="background-position: 50% 0px;"
+            data-top-bottom="background-position: 50% -50px;"
+            data-anchor-target="#writetime"> 
+          </div>
+        </div>
+      </section>
 
-     <!-- w r i t e t i m e  -->
-       <div class="row center">
-        <div class="small-12 large-offset-1 large-10 large-offset-1 columns">
-          <div class="project small-12 large-offset-1 large-10 large-offset-1 columns">
-            <p><a href="http://theomdbsearch.herokuapp.com/"><img src="../assets/Writetime.png" alt="a simple movie search app">Writeti.me</a></p>
-            <ul>
-              <li>
-                Writeti.me is a SEAN stack app built to help establish good habits in writing daily through a clean UX experience that allows for daily personal posts.
-              </li>
-              <li>
-                <i class="fa fa-code icon" aria-hidden="true"></i>
-                Languages: JavaScript, HTML5, CSS3, AngularJS
-              </li>
-              <li>
-                <i class="fa fa-cogs icon" aria-hidden="true"></i>
-                Frameworks: Node.js, ExpressJS
-              </li>
-              <li>
-                <i class="fa fa-database icon" aria-hidden="true"></i>
-                Database Tools: SQL, PostgreSQL, Sequelize
-              </li>
-              <li>
-                <i class="fa fa-lock icon" aria-hidden="true"></i>
-                Other: Express-JWT, Bootstrap
-              </li>
-            </ul>
-            <br>
-            <div class="center">
-              <a href="https://github.com/brytree/writetime" class="button round"><i class="fa fa-github icon gitlink"></i> Github</a>
-              <a href="writeti-me.herokuapp.com" class="button round"><i class="fa fa-laptop gitlink icon"></i> Demo</a>
-            </div>
+      <div class="row center">
+        <div class="project small-12 large-offset-1 large-10 large-offset-1 columns">
+          <p><a href="http://writeti-me.herokuapp.com/">Writeti.me</a></p>
+          <ul>
+            <li>
+              Writeti.me is a SEAN stack app built to help establish good habits in writing daily through a clean UX experience that allows for daily personal posts.
+            </li>
+            <li>
+              <i class="fa fa-code icon" aria-hidden="true"></i>
+              Languages: JavaScript, HTML5, CSS3, AngularJS
+            </li>
+            <li>
+              <i class="fa fa-cogs icon" aria-hidden="true"></i>
+              Frameworks: Node.js, ExpressJS
+            </li>
+            <li>
+              <i class="fa fa-database icon" aria-hidden="true"></i>
+              Database Tools: SQL, PostgreSQL, Sequelize
+            </li>
+            <li>
+              <i class="fa fa-lock icon" aria-hidden="true"></i>
+              Other: Express-JWT, Bootstrap
+            </li>
+          </ul>
+          <br>
+          <div class="center">
+            <a href="https://github.com/brytree/writetime" class="button round"><i class="fa fa-github icon gitlink"></i> Github</a>
+            <a href="writeti-me.herokuapp.com" class="button round"><i class="fa fa-laptop gitlink icon"></i> Demo</a>
           </div>
         </div>
       </div>
@@ -220,7 +228,7 @@
         <div class="small-12 large-offset-1 large-10 large-offset-1 columns">
           <div class="project small-12 large-offset-1 large-10 large-offset-1 columns">
             <p><a href="http://brytree.github.io/Busy-Bee">
-              <img src="../assets/busy-Bee3.png" />
+              <img src="../public/assets/busy-Bee3.png" />
               Busy Bee</a></p>
              <ul>
                 <li>
@@ -250,7 +258,7 @@
         <div class="small-12 large-offset-1 large-10 large-offset-1 columns">
           <div class="project small-12 large-offset-1 large-10 large-offset-1 columns">
       		  <p><a href="http://brytree.github.io/behind-the-universe/">
-              <img src="../assets/behindthe.png" alt="a front-end focused short story" />
+              <img src="../public/assets/behindthe.png" alt="a front-end focused short story" />
               Behind The Universe</a></p>
               <ul>
                 <li>
@@ -282,7 +290,7 @@
       <div class="row center">
         <div class="small-12 large-offset-1 large-10 large-offset-1 columns">
           <div class="project small-12 large-offset-1 large-10 large-offset-1 columns">
-            <p><a href="http://artr.herokuapp.com/"><img src="../assets/artrstatic.png" alt="The Artr: Social Media Art Maker">Artr</a></p>
+            <p><a href="http://artr.herokuapp.com/"><img src="../public/assets/artrstatic.png" alt="The Artr: Social Media Art Maker">Artr</a></p>
 
             <ul>
               <li>
@@ -406,7 +414,7 @@
       <div class="row">
         <div class="small-12 large-offset-1 large-10 large-offset-1 columns">
           <div class="medium-6 large-6 columns">
-            <img src="../assets/bryce.jpg" id="aboutpic" />
+            <img src="../public/assets/bryce.jpg" id="aboutpic" />
           </div>
           <div class="medium-6 large-6 columns">
             <p class="center contact-love">I'd love to be in touch! Find me on the web here: </p>
