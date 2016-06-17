@@ -229,22 +229,26 @@ a i { font-size: 18px; }
   }
 
 
-  /*footer*/
+/*footer*/
 
-/*.footer-section {
-  background: aliceblue;
+#footer {
+  background: #bcbcbc;
   min-height: 50px;
-  position: fixed;
+  position: static;
   bottom:0;
-  width: 100%;
+  margin-top: 50px;
 }
 
-.footer-section p {
+#footer p {
   color: black;
   margin-top: 10px;
   text-align: center;
   font-size: 15px;
-}*/
+}
+
+#footer a {
+  color: #004000;
+}
 
 /*navbar adapted from codepen*/
 /*nav {
