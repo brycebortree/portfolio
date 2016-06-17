@@ -68,7 +68,7 @@ a:visited {
 
 #logo {
   height: 75px;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.4);
 }
 
 .navlink{
@@ -85,7 +85,7 @@ a:visited {
 /*navbar adapted from codepen*/
 .top-bar {
   min-height: 60px;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.4);
   width: 100%;
   margin-top: 0;
 }
@@ -257,11 +257,10 @@ a i { font-size: 18px; }
     display: none;
   }
 
-
 /*footer*/
 
 #footer {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.4);
   min-height: 50px;
   position: static;
   bottom:0;
