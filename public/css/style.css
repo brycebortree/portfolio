@@ -18,15 +18,15 @@ hr {
 
 .bigboy {
   font-size: 50px;
-  font-family: 'Josefin Sans', serif;
-  font-weight: 100;
+  font-family: 'Cormorant', serif;
+  font-weight: 500;
 /*  color: #979797;*/
   color: #004000;
 }
 
 p, ul li {
   font-size:20px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Maitree', sans-serif;
   font-weight: 400;
 }
 
