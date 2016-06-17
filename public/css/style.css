@@ -41,9 +41,6 @@ p, ul li {
   font-weight: 400;
 }
 
-.fa {
-  color: #004000;
-}
 
 a:hover {
   color: royalblue;
@@ -55,7 +52,7 @@ a:visited {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 600;
   color: #979797;
 }
 
@@ -123,9 +120,6 @@ ul{
 }
 
 /*about*/
-#about {
-
-}
 
 #aboutpic {
   border-radius: 100px;
@@ -148,14 +142,13 @@ ul{
   vertical-align: middle;
 }
 
-.fa {
-  font-size: 35px;
+i.fa {
   color: #979797;
 }
 
 .gitlink {
   font-size: 20px !important;
-  color: white;
+  color: white !important;
 }
 
 /*projects*/
@@ -203,10 +196,6 @@ section.pic {
 
 /*contact*/
 
-.contact {
-
-}
-
 .contact-love{
   margin-top: 25px;
 }
@@ -214,7 +203,7 @@ section.pic {
 .contacticon {
   margin-top: 25px;
   margin-bottom: 25px;
-  color: skyblue;
+  color: skyblue !important;
 }
 
 .contacticon::before {
@@ -223,11 +212,10 @@ section.pic {
 }
 
 .contacticon:hover {
-  margin-top: 25px;
-  margin-bottom: 25px;
   color: #258dad;
 }
 
+a i { font-size: 18px; }
 
 /*preventing flash of unstyled content*/
 
