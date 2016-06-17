@@ -1,6 +1,8 @@
 body{
   height:100% !important;
   width:100% !important; 
+  background-color: #E6EAE9;
+;
 }
 
 .container {
@@ -16,12 +18,21 @@ hr {
   background-color: #004000;
 }
 
+#pullquote {
+  font-size: 40px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: 'Cormorant', serif;
+}
+
 .bigboy {
   font-size: 50px;
   font-family: 'Cormorant', serif;
   font-weight: 500;
 /*  color: #979797;*/
   color: #004000;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 p, ul li {
@@ -135,7 +146,6 @@ ul{
 
 .skill-list li {
   vertical-align: middle;
-
 }
 
 .fa {
