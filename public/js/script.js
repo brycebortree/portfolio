@@ -44,3 +44,13 @@ function fixSizes() {
     $(this).css('margin-top', ($(this).parent().height() - $(this).height()) / 2);
   });
 }
+
+
+// for navbar shrinking
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 25) {
+    $('.top-bar').addClass('shrink');
+  } else {
+    $('.top-bar').removeClass('shrink');
+  }
+});
