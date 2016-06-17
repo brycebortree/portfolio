@@ -173,17 +173,24 @@ a.button.round{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 250px;
-  width: 100%;
+  height: 400px;
   }
 
 section.pic {
-  height: 250px !important;
-  }
+  height: 400px !important;
+}
 
   /*actual pics*/
-  #writetime.bcg {background-image:url('../assets/Writetime.png')}
+.writetime .bcg {background-image:url('../assets/Writetime.png')}
+.busybee .bcg {background-image:url('../assets/busy-Bee3.png')}
+.behindthe .bcg {background-image:url('../assets/behindthe.png')}
+.artr .bcg {background-image:url('../assets/artrstatic.png')}
 
+
+
+.projlink {
+  font-size: 30px;
+}
 
 /*experience*/
 .bold {
