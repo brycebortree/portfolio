@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
+import resume from './assets/Bortree2017.pdf'
 import microsoft from './assets/microsoft.png';
 import iunu from './assets/iunu.png';
 import outreach from './assets/outreach.png';
@@ -64,7 +65,7 @@ class Work extends Component {
           </Row>
 
         <Row className="resumebuttons center">
-          <a target="_blank" href="../public/Bortree2017.pdf" className="btn btn-green"> View Resume</a>
+          <a target="_blank" href={resume} className="btn btn-green"> View Resume</a>
         </Row>
       </div>
 
