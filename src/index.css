@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body{
+  height:100% !important;
+  width:100% !important; 
+  overflow-x: hidden;
+}
+
+.bigboy {
+  font-family: 'Garamond', serif;
+  font-size: 3em;
+  font-weight: 200;
+  color: darkgreen;
+  padding-bottom: 1.7em;
+}
+
+.raleway, h1 {
+  font-family: 'Garamond', 'Times', serif;
+  font-weight: 200;
+/*  padding-top: 30px;
+*/}
+
+hr{
+  color: darkgreen;
+}
+
+.emphatic{
+  font-family: 'Raleway', 'Ariel', serif;
+  font-size: 1.4em;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: 15px;
+}
+
+#smaller {
+  font-family: 'Raleway', 'Ariel', serif;
+  font-size: .8em;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: 15px;
+}
+
+p, li {
+  font-family: 'Raleway', 'Ariel', serif;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+.col-center{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#about-pic{
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.about-text {
+  display: inline-block;
+  padding-top: 5%;
+  max-width: 28em;
+  max-width: 70ch;
+  margin: 0 auto;
+}
+
+
+a{
+  color: darkgreen;
+}
+
+a:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+/*resume*/
+
+.work-image {
+   @media (min-width: @screen-sm-min) { 
+    max-width: 100px;
+  }
+   @media (min-width: @screen-md-min) { 
+    max-width: 150px;
+  }
+  max-width: 200px;
+  
+}
+
+.resumebuttons {
+  padding: 2.5em;
+  border-radius: 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.right {
+  float: right;
+}
+
+.btn-green{
+  background-color: darkgreen;
+  font-family: 'Raleway', 'Ariel', sans-serif;
+  color: #E6EAE9;
+}
+
+.btn-green:hover{
+  background-color: darkgreen;
+  font-family: 'Raleway', 'Ariel', sans-serif;
+  color: #E6EAE9;
+}
+
+nav i{ 
+  color: lightgrey; 
+}
+
+.footer{
+  color: lightgrey;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.footer p, .footer a{
+  font-family: 'Garamond', 'Times', serif;
+  padding-top: .5em;
+  font-size: 2em;
+  color:lightgrey;
+}
+
+.footer .fa {
+  font-size: 2.5em;
+  letter-spacing: 1em;
+
+}
+
+.darkBg{
+  background-color: rgba(0, 0, 0, .8);
+  color: lightgrey;
+}
+
+.darkBg .bigboy{
+  color: skyblue;
+}
+
+.blue-border{
+  border-top: .2em darkgreen solid;
+  border-bottom: .2em darkgreen solid;
+}
+
+.darkBg p {
+  max-width: 28em;
+  max-width: 70ch;
+}
+
+.darkBg a {
+  color: skyblue;
+}
+
+/*writing*/
+.breather{
+  padding: 10px;
+}
+
+.navbar{
+  border-radius: 0;
+}
+
+.navbar-inverse{
+  background-color: rgba(0, 0, 0, .8);
+}
+
