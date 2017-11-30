@@ -17,7 +17,6 @@ class Footer extends Component{
           </Col>
         </Row>
         <Row className="spacer" />
-
       </div>
     )
   }

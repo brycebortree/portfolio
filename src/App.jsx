@@ -13,7 +13,7 @@ class App extends Component {
   render(){
     return(
       <Row>
-        <Col xs={12} sm={10} smOffset={1} md={8} mdOffset={2} lg={8} lgOffset={2} >
+        <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={8} lgOffset={2} >
           <Splash />
           <Writing />
           <Work />
