@@ -8,7 +8,8 @@ import outreach from './assets/outreach.png';
 class Work extends Component {
   render(){
     return(
-       <div className="blue-border">
+       <div className="darkBg blue-border">
+         <Row className="spacer" />
          <Row>
             <Col xs={12} sm={12} md={10} mdOffset={1} lg={10} lgOffset={1}>
               <h1 className="bigboy" id="work">work</h1>
@@ -16,16 +17,22 @@ class Work extends Component {
           </Row>
 
          <Row>
+          <Col xs={12} sm={12} md={10} mdOffset={1} lg={10} lgOffset={1}>
             <Col xs={4} sm={4} md={4} lg={4}>
-              <Image src={iunu} className="work-image center-block" alt="IUNU" responsive />
+              <Image src={outreach} className="work-image center-block" alt="Outreach" responsive />
             </Col>
             <Col xs={4} sm={4} md={4} lg={4}>
               <Image src={microsoft} className="work-image center-block" alt="MSFT" responsive />
             </Col>
             <Col xs={4} sm={4} md={4} lg={4}>
-              <Image src={outreach} className="work-image center-block" alt="Outreach" responsive />
+              <Image src={iunu} className="work-image center-block" alt="IUNU" responsive />
             </Col>
+           </Col>
           </Row>
+
+          <Row className="spacer" />
+          <Row className="spacer" />
+
 
            <Row>
             <Col xs={10} xsOffset={1} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1}>
@@ -63,11 +70,15 @@ class Work extends Component {
               </Row>
             </Col>
           </Row>
+         <Row className="spacer" />
 
         <Row className="resumebuttons center">
           <a target="_blank" href={resume} className="btn btn-green"> View Resume</a>
         </Row>
+        <Row className="spacer" />
+
       </div>
+
 
     )
   }

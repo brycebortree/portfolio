@@ -6,6 +6,8 @@ class Footer extends Component{
   render(){
     return(
       <div className="footer center blue-border">
+        <Row className="spacer" />
+
         <Row>
           <Col xs={12} sm={12} md={12} lg={12}>
           <p> related ephemera: </p>
@@ -14,6 +16,8 @@ class Footer extends Component{
             <a href="mailto:brycebortree@gmail.com"><i className="fa fa-envelope"></i></a>
           </Col>
         </Row>
+        <Row className="spacer" />
+
       </div>
     )
   }

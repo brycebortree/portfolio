@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import resume from './assets/Bortree2017.pdf'
-import godappears from './assets/chapbooks/godappears.pdf'
-import momentaryflash from './assets/chapbooks/momentaryflash.pdf'
-import cartographies from './assets/chapbooks/cartographies.pdf'
 
-
+import cartographies from './assets/chapbooks/cartographies.pdf';
+import godappears from './assets/chapbooks/godappears.pdf';
+import momentaryflash from './assets/chapbooks/momentaryflash.pdf';
 
 class Writing extends Component{
   render(){
     return(
-      <div className="darkBg blue-border">
+      <div className="blue-border">
+        <Row className="spacer" />
         <Row>
-          <Col xs={12} sm={10} smOffset={1} md={8} mdOffset={2} lg={8} lgOffset={2}>
+          <Col xs={12} sm={12} md={10} mdOffset={1} lg={10} lgOffset={1}>
             <h1 className="bigboy" id="writing">writing</h1>
           </Col>
         </Row>
@@ -27,25 +26,7 @@ class Writing extends Component{
           <Col xs={10} xsOffset={1} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1}>
             <p>
               God Appears Only to Disapprove | poetry | November 2016
-            </p>
-            <p>
-              <a target="_blank" href={godappears}>
-                PDF
-              </a> | 
-              <a target="_blank" href="/godappears">
-                 story view
-              </a> 
-            </p>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col xs={10} xsOffset={1} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1}>
-            <p>
-              cartographies | poetry | May 2013
-            </p>
-            <p>
-              <a target="_blank" rel="noopener noreferrer" href={cartographies}>
+            | <a target="_blank" href={godappears}>
                 PDF
               </a> 
             </p>
@@ -55,10 +36,17 @@ class Writing extends Component{
         <Row>
           <Col xs={10} xsOffset={1} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1}>
             <p>
-              A Momentary Flash of Roger & Another Story | fiction | November 2012
+              cartographies | poetry | May 2013 | <a target="_blank" rel="noopener noreferrer" href={cartographies}>
+                PDF
+              </a> 
             </p>
-            <p >
-              <a target="_blank" href={momentaryflash}>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col xs={10} xsOffset={1} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1}>
+            <p>
+              A Momentary Flash of Roger & Another Story | fiction | November 2012 | <a target="_blank" href={momentaryflash}>
                 PDF 
               </a>
             </p>
@@ -98,11 +86,8 @@ class Writing extends Component{
             </p>
           </Col>
         </Row>
+        <Row className="spacer" />
 
-
-        <Row className="resumebuttons center">
-          <a href={"http://www.etsy.com/shop/adeeratree"} className="btn btn-green"> View Etsy</a>
-        </Row>
       </div>
     )
   }
