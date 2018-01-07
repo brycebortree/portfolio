@@ -2192,6 +2192,12 @@
 		.image img {
 			border-radius: 0;
 			display: block;
+			opacity: 1;
+			transition: opacity 0.3s;
+		}
+
+		img[data-src] {
+		  opacity: 0;
 		}
 
 		.image.left, .image.right {
@@ -3331,7 +3337,7 @@
 			background-color: #1E2832;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/pic10.jpg");
+			background-image: url("images/overlay.png"), url("../../images/pic10.webp");
 			background-size: cover;
 		}
 
@@ -3879,7 +3885,7 @@
 		background-color: #1E2832;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/typewriter.jpg");
+		background-image: url("images/overlay.png"), url("../../images/typewriter.webp");
 		background-size: cover;
 		text-align: center;
 	}

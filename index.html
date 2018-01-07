@@ -8,9 +8,11 @@
 	<head>
 		<title>bb | SWE</title>
 		<meta charset="utf-8" />
+		<meta name="theme_color" content="#15800F" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="manifest" href="/manifest.json">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -19,21 +21,14 @@
 		<!-- Header -->
 			<header id="header" class="alt">
 				<h1><a href="index.html">Bryce Bortree</a></h1>
-				<a href="#nav">Menu</a>
-			</header>
+				<a href="#one">Poetry</a>
+				<a href="#two">Code</a>
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#one">Writing</a></li>
-					<li><a href="#two">Code</a></li>
-				</ul>
-			</nav>
+			</header>
 
 		<!-- Banner -->
 			<section id="banner">
-				<i class="icon fa-diamond"></i>
+				<i class="icon fa-paper-plane"></i>
 				<h2>Writer</h2>
 				<p>poetry & code</p>
 			</section>
@@ -42,7 +37,7 @@
 			<section id="one" class="wrapper style1">
 				<div class="inner">
 					<article class="feature left">
-						<span class="image"><img src="images/chapbooks.jpg" alt="" /></span>
+						<span class="image"><img src="images/chapbooks.webp" alt="chapbooks" /></span>
 						<div class="content">
 							<h2>Chapbooks</h2>
 							<p>God Appears Only To Disapprove | Poetry | 2016 | <a href="images/godappears.pdf">PDF</a></p>
@@ -51,7 +46,7 @@
 						</div>
 					</article>
 					<article class="feature right">
-						<span class="image"><img src="images/ceelie.jpg" alt="" /></span>
+						<span class="image"><img data-src="images/ceelie.webp" alt="Gold Self Portrait, Chloe Heymans" /></span>
 						<div class="content">
 							<h2>Online Publications</h2>
 							<p><a href="https://womeninourlives.wordpress.com/2012/10/19/winter/">winter</a> at <a href="https://womeninourlives.wordpress.com/">Women In Our Lives</a></p>
@@ -73,10 +68,10 @@
 						</ul>
 					</header>
 					<div class="image-grid">
-						<a href="http://outreach.io" class="image"><img src="images/outreachio_logo.png" alt="Outreach.io" /></a>
-						<a href="http://http://www.industryexplorers.com/" class="image"><img src="images/leap.png" alt="LEAP" /></a>
-						<a href="http://http://www.industryexplorers.com/" class="image"><img src="images/microsoft.png" alt="Microsoft" /></a>
-						<a href="http://lunapowered.com" class="image"><img src="images/iunu.png" alt="" /></a>
+						<a href="http://outreach.io" class="image"><img data-src="images/outreachio_logo.webp" alt="Outreach.io" /></a>
+						<a href="http://http://www.industryexplorers.com/" class="image"><img data-src="images/leap.webp" alt="LEAP" /></a>
+						<a href="http://http://www.industryexplorers.com/" class="image"><img data-src="images/microsoft.webp" alt="Microsoft" /></a>
+						<a href="http://lunapowered.com" class="image"><img data-src="images/iunu.webp" alt="IUNU" /></a>
 				</div>
 			</section>
 
@@ -118,11 +113,23 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+				if('serviceWorker' in navigator) {
+				  navigator.serviceWorker
+				           .register('/sw.js')
+				           .then(function() { console.log("Service Worker Registered"); });
+				}
 
+				[].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
+				  img.setAttribute('src', img.getAttribute('data-src'));
+				  img.onload = function() {
+				    img.removeAttribute('data-src');
+				  };
+				});
+			</script>
 	</body>
 </html>
