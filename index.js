@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 app.use("/assets", express.static(__dirname + '/assets'));
-
+app.use("/images", express.static(__dirname + '/images'));
 app.use(express.static(path.join(__dirname, '/')));
 
 app.get('*', function (req, res){
@@ -14,4 +14,3 @@ app.get('*', function (req, res){
 const port = process.env.PORT || 8673;
 console.log('listening to port ', port);
 app.listen(port);
-
