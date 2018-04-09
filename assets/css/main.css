@@ -2662,7 +2662,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #63c1ae;
+				background-color: deepskyblue;
 			}
 
 			input[type="submit"].special:active,
@@ -3055,7 +3055,7 @@
 					.wrapper.style1 input[type="button"].special:hover,
 					.wrapper.style1 button.special:hover,
 					.wrapper.style1 .button.special:hover {
-						background-color: #63c1ae;
+						background-color: deepskyblue;
 					}
 
 					.wrapper.style1 input[type="submit"].special:active,
@@ -3063,7 +3063,7 @@
 					.wrapper.style1 input[type="button"].special:active,
 					.wrapper.style1 button.special:active,
 					.wrapper.style1 .button.special:active {
-						background-color: #45ad97;
+						background-color: deepskyblue;
 					}
 
 				.wrapper.style1 input[type="submit"].alt,
@@ -3290,7 +3290,7 @@
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #63c1ae;
+						background-color: deepskyblue;
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
@@ -3298,7 +3298,7 @@
 					.wrapper.style2 input[type="button"].special:active,
 					.wrapper.style2 button.special:active,
 					.wrapper.style2 .button.special:active {
-						background-color: #45ad97;
+						background-color: deepskyblue;
 					}
 
 				.wrapper.style2 input[type="submit"].alt,
@@ -3528,7 +3528,7 @@
 					.wrapper.style3 input[type="button"].special:hover,
 					.wrapper.style3 button.special:hover,
 					.wrapper.style3 .button.special:hover {
-						background-color: #63c1ae;
+						background-color: deepskyblue;
 					}
 
 					.wrapper.style3 input[type="submit"].special:active,
@@ -3536,7 +3536,7 @@
 					.wrapper.style3 input[type="button"].special:active,
 					.wrapper.style3 button.special:active,
 					.wrapper.style3 .button.special:active {
-						background-color: #45ad97;
+						background-color: deepskyblue;
 					}
 
 				.wrapper.style3 input[type="submit"].alt,
