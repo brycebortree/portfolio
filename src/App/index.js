@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
-import image from './outreachio_logo.png'
 
+import image from '../assets/outreachio_logo.png'
 import Menu from '../Menu/index';
 
 class App extends Component {
