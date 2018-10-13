@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-=======
-# See https://help.github.com/ignore-files/ for more about ignoring files.
->>>>>>> c9d48e585a50b255fd5de64f36936ec4658f521e
 
 # dependencies
 /node_modules
@@ -23,3 +19,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+circle_ci_rsa
+circle_ci_rsa.pub
