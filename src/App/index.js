@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import './index.css';
+import image from './outreachio_logo.png'
+
+import Menu from '../Menu/index';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Menu />
         <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <img src={image} alt={image} />
+          <img src={image} alt={image} />
+          <img src={image} alt={image} />
+          <img src={image} alt={image} />
+          <img src={image} alt={image} />
+          <img src={image} alt={image} />
+          <img src={image} alt={image} />
         </header>
       </div>
     );
